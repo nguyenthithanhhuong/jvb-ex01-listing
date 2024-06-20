@@ -1,0 +1,227 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: var(--header-height);
+    border-bottom: 1px var(--border-color) solid;
+    padding: 0 63.58px;
+    
+}
+
+.name-page{
+    padding-top: 52.54px;
+}
+
+.navbar {
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-family: 'New York Small', sans-serif;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 59px;
+}
+
+.navbar-item {
+    cursor: pointer;
+    padding-bottom: 38px;
+}
+
+.navbar-item:hover {
+    border-bottom: 2px var(--black-color) solid;
+}
+
+.content {
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.content__banner {
+    margin-top: 76px;
+}
+
+.content__banner img {
+    width: 854px;
+    height: 533px;
+}
+
+.content__intro {
+    margin-top: 44px;
+    text-align: center;
+    width: 858px;
+}
+
+.content__intro-title {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 5.4rem;
+    line-height: 5.4rem;
+    font-weight: 700;
+}
+
+.content__intro-sub-title {
+    font-family: 'SF Mono', sans-serif;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+    font-weight: 400;
+    width: 592px;
+    padding-top: 32px;
+    margin-bottom: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content__intro-border {
+    width: 640px;
+    height: 2px;
+    background-color: var(--black-color);
+
+}
+
+.content__article {
+
+}
+
+.content__article-title {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 4.4rem;
+    line-height: 5.251rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 64px 0 39px;
+}
+
+.content__article-img {
+    width: 304px;
+    height: 176px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content__article-desc {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2.2rem;
+    line-height: 2.64rem;
+    width: 262px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.content__article-img:hover,
+.content__article-desc:hover {
+    opacity: 0.7;
+}
+
+.footer {
+    height: var(--footer-height);
+    margin-top: 75px;
+    height: var(--footer-height);
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.footer__feature-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer__feature-item {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.footer__feature-item:nth-child(2) {
+    padding-left: 10px;
+}
+
+.footer__feature-item:nth-child(3) {
+    padding-left: 19px;
+}
+
+.footer__feature-item:nth-child(4) {
+    padding-left: 16px;
+}
+
+.footer__feature-item:nth-child(5),
+.footer__feature-item:nth-child(6) {
+    padding-left: 13px;
+}
+
+.footer__feature-item:nth-child(7) {
+    padding-left: 18px;
+    padding-right: 17px;
+}
+
+.footer__feature-item:nth-child(odd) {
+    font-weight: 800;
+}
+
+.footer__feature-item:nth-child(even) {
+    font-weight: 400;
+}
+
+.footer__name-page {
+    padding-top: 105.12px;
+    padding-bottom: 25.58px;
+    text-align: center;
+}
+
+.footer__desc {
+    width: 488px;
+    font-family: 'New York Small', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+}
+
+.footer__contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__contact-link {
+    color: var(--white-color);
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.72px;
+}
+
+.footer__contact-item:nth-child(2) {
+    padding: 0 29px 0 27px;
+}
+
+.footer__copyright {
+    width: 178px;
+    padding-top: 64px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.68rem;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-btn {
+    display: none;
+}

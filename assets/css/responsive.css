@@ -1,0 +1,128 @@
+/* mobile */
+@media (max-width: 992px) {
+    :root {
+        --header-height: 65px;
+    }
+
+    .row {
+        width: 100%;
+    }
+   
+    .col {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 42px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .header {
+        padding: 0 20px;
+    }
+
+    .menu-btn {
+        display: block;
+        width: 24px;
+        height: 14px;
+        padding-top: 27px;
+    }
+
+    .name-page {
+        padding-top: 24px;
+    }
+
+    .name-page-header {
+        height: 20px;
+        width: 217px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .content__banner {
+        width: 100%;
+        margin-top: 52px;
+    }
+
+    .content__banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content__intro {
+        text-align: center;
+        width: 335px;
+    } 
+
+    .content__intro-title {
+        font-size: 3.6rem;
+        line-height: 4.296rem;
+        margin-top: 32px;
+    }
+
+    .content__intro-sub-title {
+        font-size: 1.6rem;
+        line-height: 2.72rem;
+        width: 335px;
+        padding-top: 24px;
+        margin-bottom: 52px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content__intro-border {
+        width: 100%;
+        height: 2px;
+        background-color: var(--black-color);
+    }
+
+    .content__article-title {
+        font-size: 3.2rem;
+        line-height: 3.819rem;
+        padding: 56px 0 29px;
+    }
+
+
+    .content__article-img {
+        width: 335px;
+        height: 194px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer__feature-list {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+
+    .name-page-footer {
+        width: 236.37px;
+        height: 22.18px;
+    }
+
+    .footer__name-page {
+        padding-top: 103.41px;
+        padding-bottom: 25.41px;
+    }
+
+    .footer__desc {
+        width: 287px;
+        font-size: 1.3rem;
+        line-height: 1.82rem;
+    }
+
+    .footer__contact-link {
+        font-size: 1.3rem;
+        line-height: 2.21px;
+    }
+}

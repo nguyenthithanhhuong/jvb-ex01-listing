@@ -1,0 +1,49 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --border-color: rgba(0,0,0,0.16);
+
+    --header-height: 133px;
+    --footer-height: 464px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2.387rem;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.row {
+    width: 854px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    width: 304px;
+    margin: 0 14px;
+    padding-bottom: 64px;
+}
+
+.margin-left-31 {
+    margin-left: 31px;
+}
+
+.margin-left-34 {
+    margin-left: 34px;
+}
+
+.margin-left-36 {
+    margin-left: 36px;
+}

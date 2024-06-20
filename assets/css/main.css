@@ -4,20 +4,15 @@
     height: var(--header-height);
     border-bottom: 1px var(--border-color) solid;
     padding: 0 63.58px;
-    
 }
 
 .name-page{
     padding-top: 52.54px;
 }
 
-.navbar {
-}
-
 .navbar-list {
     display: flex;
     list-style: none;
-    font-family: 'New York Small', sans-serif;
     font-size: 2.0rem;
     line-height: 3.4rem;
     font-weight: 500;
@@ -34,11 +29,6 @@
     border-bottom: 2px var(--black-color) solid;
 }
 
-.content {
-    margin-left: auto;
-    margin-bottom: auto;
-}
-
 .content__banner {
     margin-top: 76px;
 }
@@ -49,43 +39,33 @@
 }
 
 .content__intro {
-    margin-top: 44px;
     text-align: center;
     width: 858px;
+    margin-top: 44px;
 }
 
-.content__intro-title {
-    font-family: 'New York Extra Large', sans-serif;
+.content__intro-heading {
     font-size: 5.4rem;
     line-height: 5.4rem;
     font-weight: 700;
 }
 
-.content__intro-sub-title {
-    font-family: 'SF Mono', sans-serif;
+.content__intro-sub-heading {
     font-size: 2.0rem;
     line-height: 3.4rem;
     font-weight: 400;
     width: 592px;
     padding-top: 32px;
     margin-bottom: 34px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .content__intro-border {
     width: 640px;
     height: 2px;
     background-color: var(--black-color);
-
 }
 
-.content__article {
-
-}
-
-.content__article-title {
-    font-family: 'New York Extra Large', sans-serif;
+.content__article-heading {
     font-size: 4.4rem;
     line-height: 5.251rem;
     font-weight: 700;
@@ -101,16 +81,15 @@
 }
 
 .content__article-desc {
-    font-family: 'SF Pro Display', sans-serif;
     font-size: 2.2rem;
     line-height: 2.64rem;
+    font-weight: 500;
+    text-align: center;
     width: 262px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-weight: 500;
     cursor: pointer;
-    padding-top: 20px;
 }
 
 .content__article-img:hover,
@@ -120,21 +99,17 @@
 
 .footer {
     height: var(--footer-height);
-    margin-top: 75px;
-    height: var(--footer-height);
     background-color: var(--black-color);
     color: var(--white-color);
+    margin-top: 75px;
 }
 
 .footer__feature-list {
     display: flex;
     justify-content: center;
     list-style: none;
-    font-family: 'SF Pro Display', sans-serif;
     font-size: 2.0rem;
     line-height: 2.8rem;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 18px;
     text-align: center;
 }
@@ -181,14 +156,11 @@
 }
 
 .footer__desc {
-    width: 488px;
-    font-family: 'New York Small', sans-serif;
     font-size: 1.6rem;
     line-height: 2.24rem;
     font-weight: 400;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 488px;
     padding-bottom: 32px;
 }
 
@@ -196,11 +168,11 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .footer__contact-link {
     color: var(--white-color);
-    font-family: 'SF Pro Text', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.72px;
@@ -211,15 +183,12 @@
 }
 
 .footer__copyright {
-    width: 178px;
-    padding-top: 64px;
-    font-family: 'SF Pro Text', sans-serif;
     font-size: 1.2rem;
     line-height: 1.68rem;
     font-weight: 500;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 178px;
+    padding-top: 64px;
 }
 
 .menu-btn {

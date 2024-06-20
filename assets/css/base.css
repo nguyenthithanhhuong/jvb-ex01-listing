@@ -15,6 +15,7 @@ html {
     font-size: 62.5%;
     line-height: 2.387rem;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -36,6 +37,10 @@ body {
     padding-bottom: 64px;
 }
 
+.hidden-desktop {
+    display: none;
+}
+
 .margin-left-31 {
     margin-left: 31px;
 }
@@ -46,4 +51,29 @@ body {
 
 .margin-left-36 {
     margin-left: 36px;
+}
+
+.margin-lr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ny-small {
+    font-family: 'New York Small', sans-serif;
+}
+
+.ny-extra-large {
+    font-family: 'New York Extra Large', sans-serif;
+}
+
+.sf-mono {
+    font-family: 'SF Mono', sans-serif;
+}
+
+.sf-pro-display {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.sf-pro-text {
+    font-family: 'SF Pro Text', sans-serif;
 }

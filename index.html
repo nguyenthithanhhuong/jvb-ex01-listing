@@ -35,7 +35,7 @@
 
             <!-- Navbar -->
             <nav class="navbar">
-                <ul class="navbar-list">
+                <ul class="navbar-list ny-small">
                     <li class="navbar-item">BLOG</li>
                     <li class="navbar-item margin-left-31">ABOUT</li>
                     <li class="navbar-item margin-left-34">LINKS</li>
@@ -45,7 +45,7 @@
 
             <!-- Header menu button -->
             <div class="menu-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
                     <line y1="0.5" x2="24" y2="0.5" stroke="black"/>
                     <line y1="7.5" x2="24" y2="7.5" stroke="black"/>
                     <line y1="14.5" x2="24" y2="14.5" stroke="black"/>
@@ -54,7 +54,7 @@
         </header>
 
         <!-- Content section -->
-        <div class="content">
+        <div class="content margin-lr-auto">
             <!-- Content banner -->
             <div class="row">
                 <div class="content__banner">
@@ -65,11 +65,11 @@
             <!-- Content introduction -->
             <div class="row">
                 <div class="content__intro">
-                    <div class="content__intro-title">
+                    <div class="content__intro-heading ny-extra-large">
                         A few words about this blog platform, Ghost, and how this site was made
                     </div>
 
-                    <div class="content__intro-sub-title">
+                    <div class="content__intro-sub-heading margin-lr-auto sf-mono">
                         Why Ghost (& Figma) instead of Medium, WordPress or other options?
                     </div>
                 </div>
@@ -79,12 +79,12 @@
 
             <!-- Content article -->
             <div class="content__article">
-                <div class="content__article-title">
+                <div class="content__article-heading ny-extra-large">
                     All articles
                 </div>
 
                 <!-- All article desktop-->
-                <div class="row hidden">
+                <div class="row hidden-mobile sf-pro-display">
                     <div class="col">
                         <img src="./assets/image/art-img-01.png" alt="article-01" class="content__article-img">
                         <div class="content__article-desc">
@@ -161,41 +161,41 @@
                 </div>
 
                 <!-- All article mobile -->
-                <div class="row">
+                <div class="row hidden-desktop sf-pro-display">
                     <div class="col">
                         <img src="./assets/image/art-img-02.png" alt="article-01" class="content__article-img">
                         <div class="content__article-desc">
-                            Here are some things you should know regarding how we work 
+                            Granny gives everyone the finger, and other tips from OFFF Barcelona
                         </div>
                     </div>
                     <div class="col">
                         <img src="./assets/image/art-img-03.png" alt="article-02" class="content__article-img">
                         <div class="content__article-desc">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
+                            Hello world, or, in other words, why this blog exists
                         </div>
                     </div>
                     <div class="col">
                         <img src="./assets/image/art-img-01.png" alt="article-03" class="content__article-img">
                         <div class="content__article-desc">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
+                            Here are some things you should know regarding how we work 
                         </div>
                     </div>
                     <div class="col">
                         <img src="./assets/image/art-img-14.png" alt="article-04" class="content__article-img">
                         <div class="content__article-desc">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
+                            Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better
                         </div>
                     </div>
                     <div class="col">
                         <img src="./assets/image/art-img-13.png" alt="article-05" class="content__article-img">
                         <div class="content__article-desc">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
+                            A few words about this blog platform, Ghost, and how this site was made
                         </div>
                     </div>
                     <div class="col">
                         <img src="./assets/image/art-img-12.png" alt="article-06" class="content__article-img">
                         <div class="content__article-desc">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
+                            How modern remote working tools get along with Old School Cowboy's methods
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,8 @@
 
         <!-- Footer section -->
         <footer class="footer">
-            <div class="footer__feature-list">
+            <!-- Footer list feature -->
+            <div class="footer__feature-list sf-pro-display margin-lr-auto">
                 <div class="footer__feature-item">Digital product design</div>
                 <div class="footer__feature-item">Remote work</div>
                 <div class="footer__feature-item">UX design</div>
@@ -215,6 +216,7 @@
                 <div class="footer__feature-item">Growth</div>
             </div>
 
+            <!-- Footer name page -->
             <div class="footer__name-page">
                 <svg class="name-page-footer" xmlns="http://www.w3.org/2000/svg" width="292" height="28" viewBox="0 0 292 28" fill="none">
                     <path d="M1.18565 23H11.5537V22.456L8.22565 22.04C7.26565 21.912 6.56165 21.176 6.56165 20.184V4.856L19.7457 23H21.1857V3.352C21.1857 2.39199 21.8577 1.592 22.8177 1.46399L25.2497 1.144V0.599995H14.8817V1.144L18.2097 1.56C19.1697 1.688 19.8737 2.424 19.8737 3.41599V17.688L10.3057 4.248C7.64966 0.535995 5.02565 0.599995 0.545654 0.599995V1.144C2.49765 1.432 4.41765 2.168 5.24965 3.64V20.248C5.24965 21.208 4.57765 22.008 3.61765 22.136L1.18565 22.456V23Z" fill="white"/>
@@ -230,23 +232,26 @@
                 </svg>
             </div>
 
-            <div class="footer__desc">
+            <!-- Footer desciption paragaph -->
+            <div class="footer__desc ny-small margin-lr-auto">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. 
             </div>
 
-            <ul class="footer__contact-list">
+            <!-- Footer social contact -->
+            <ul class="footer__contact-list sf-pro-text">
                 <li class="footer__contact-item">
-                    <a href="" class="footer__contact-link">Twitter</a>
+                    <a href="#" class="footer__contact-link">Twitter</a>
                 </li>
                 <li class="footer__contact-item">
-                    <a href="" class="footer__contact-link">LinkedIn</a>
+                    <a href="#" class="footer__contact-link">LinkedIn</a>
                 </li>
                 <li class="footer__contact-item">
-                    <a href="" class="footer__contact-link">RSS</a>
+                    <a href="#" class="footer__contact-link">RSS</a>
                 </li>
             </ul>
 
-            <div class="footer__copyright">
+            <!-- Footer copyright -->
+            <div class="footer__copyright sf-pro-text margin-lr-auto">
                 © 2012–2020 Nordic Rose Co. All rights reserved. 
             </div>
         </footer>

@@ -69,6 +69,7 @@
     } 
 
     .content__intro-heading {
+        width: 340px;
         font-size: 3.6rem;
         line-height: 4.296rem;
     }

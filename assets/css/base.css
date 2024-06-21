@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .row {
@@ -60,6 +60,10 @@ body {
 
 .ny-small {
     font-family: 'New York Small', sans-serif;
+}
+
+.ny-medium {
+    font-family: 'New York Medium', sans-serif;
 }
 
 .ny-extra-large {

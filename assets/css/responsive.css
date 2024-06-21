@@ -65,12 +65,12 @@
     .content__intro {
         text-align: center;
         width: 335px;
+        margin-top: 32px;
     } 
 
     .content__intro-heading {
         font-size: 3.6rem;
         line-height: 4.296rem;
-        margin-top: 32px;
     }
 
     .content__intro-sub-heading {

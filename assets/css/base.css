@@ -58,6 +58,10 @@ body {
     margin-right: auto;
 }
 
+.width-282 {
+    width: 282px !important;
+}
+
 .ny-small {
     font-family: 'New York Small', sans-serif;
 }

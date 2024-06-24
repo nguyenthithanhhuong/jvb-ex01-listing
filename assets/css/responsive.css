@@ -1,5 +1,5 @@
 /* mobile */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     :root {
         --header-height: 65px;
     }
@@ -110,6 +110,7 @@
     .footer__feature-list {
         font-size: 1.6rem;
         line-height: 2.8rem;
+        justify-content: center;
     }
 
     .name-page-footer {
